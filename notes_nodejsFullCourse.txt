@@ -1,0 +1,32 @@
+install couch db
+open localhost:5984/_utils/
+
+create a directory, go into that directory and enter npm init. This will create package.json for us
+now we will install required dependecies
+1. npm install express --save //save options will save dependecy in package.json file
+2. npm install jade --save
+3. npm install nano --save
+4. npm install body-parser --save 
+5. npm install errorhandler --save
+6. npm install url --save
+7. npm install serve-favicon --save
+8. npm install logger --save
+9. npm install json --save
+10. npm install express-session --save
+11. npm install method-override --save
+
+
+we can also install express-generator as
+np install express-generator -g //that is globally
+go inside our project directory
+and enter command
+
+>> express
+this will create all the boiler plate code
+then you have to run >> npm install then >>npm start to start the application
+
+
+to learn docker, mongo and more depth on other
+3hours 45 minutes tak ho gaya, remaining if required we can use.
+url is: https://www.youtube.com/watch?v=JnvKXcSI7yk
+
