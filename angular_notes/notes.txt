@@ -1,0 +1,44 @@
+https://www.youtube.com/watch?v=2OHbjep_WjQ
+
+install angular-cli: npm install -g @angular/cli@latest
+to verify installation: ng -v
+
+ Decorators example
+ -class Decorators
+ - member decorators
+
+ ng generate  component <component-name>
+
+import {NgModule} from '@angular/core'
+ ngmodel for two way directive of any variable....
+ ngfor
+ service
+
+import {HttpClientModule} from '@angular/common/http' 1:29hr
+ ng generate service <service-name>
+ inject in the provider decorators
+
+ http request:
+    this.http.get('http://<url>/file.json)
+    .subscribe(data => {
+        console.log("we got", data)
+    })
+
+ httpclient tutorial 12
+
+ for getting any file from url:
+ go n that direcotory
+ and enter php -S localhost:1234
+
+
+ proxy configuration 1:40
+
+basic routing 1:46
+ng generate component home
+ng generate component data
+
+import {RoutingModule} from '@angular/router';
+<a routerLink="somevalie"></a> // internal links,, i.e. one of the links defined in the routermodule
+
+1:56 Login App
+to be continued for more redux , sessions and lot of other stuffs
