@@ -29,4 +29,11 @@ then you have to run >> npm install then >>npm start to start the application
 to learn docker, mongo and more depth on other
 3hours 45 minutes tak ho gaya, remaining if required we can use.
 url is: https://www.youtube.com/watch?v=JnvKXcSI7yk
+-----------------------------------------------------------------------------
+or else:
+npm init - generates default code
+npm install express - node js server
+npm install mssql - to interact with db
+npm install body-parser - to pass json in node js project
+
 
